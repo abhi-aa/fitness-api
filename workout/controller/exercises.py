@@ -8,7 +8,7 @@ from workout.model.exercise_model import ExerciseModel
 def route_exercises():
     """exercise routes for CRUD operations"""
     if request.method == "GET":
-        exercise_list = []
+        exercise_list = [] 
         result = None
 
         try:
