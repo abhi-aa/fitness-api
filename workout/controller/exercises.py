@@ -62,13 +62,13 @@ def route_exercise_id(exercise_id):
             data = {"name": exercise.name, "sets": exercise.sets, "reps": exercise.reps}
 
         return jsonify(data)
-
+ 
     if request.method == "PUT":
         data_list = request.json
 
         name = None
         result = None
-
+        
         # get the user we want to change from db
         try:
             result = db.session.execute(db.select(ExerciseModel).filter_by(id=id)).one()
