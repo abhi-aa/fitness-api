@@ -65,7 +65,7 @@ def route_exercise_id(exercise_id):
  
     if request.method == "PUT":
         data_list = request.json
-
+ 
         name = None
         result = None
         
