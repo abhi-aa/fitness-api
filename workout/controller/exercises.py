@@ -63,7 +63,7 @@ def route_exercise_id(exercise_id):
 
         return jsonify(data)
  
-    if request.method == "PUT":
+    if request.method == "PUT": 
         data_list = request.json
  
         name = None
