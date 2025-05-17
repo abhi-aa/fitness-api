@@ -10,7 +10,7 @@ Windows - Mac - Linux
 
 ```
 git clone https://github.com/Simple-Tech-Services/fitness-api.git
-```
+``` 
 
 ```
 cd https://github.com/Simple-Tech-Services/fitness-api.git
@@ -23,7 +23,7 @@ Generate virtual environment Windows
 ```
 py -3 -m venv venv
 ```
-
+  
 Activate virtual environment
 
 ```
